@@ -1,0 +1,185 @@
+h1
+{
+    color: #00BF63;
+    text-align: center;
+    margin-top: 5%;
+}
+
+h2,h3
+{
+    text-align: center;
+}
+
+
+button
+{
+    width: fit-content;
+    height: 40px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: #00BF63;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 2%;
+    padding-right: 2%;
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover
+{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+
+hr
+{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 80%;
+}
+.big_text
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.on_off_line
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul
+{
+    line-height: 150%;
+    text-align: center;
+    
+}
+
+li
+{
+    /* transition: transform 0.2s ease-in-out; */
+    user-select: none;
+    font-size: 18px;
+    /* list-style: inside; */
+}
+
+/* li:hover
+{
+    transform: scale(1.2);
+} */
+
+
+
+/**/
+.Prize ul
+{
+    list-style: circle inside;
+}
+
+
+
+/**/
+/*//////////////////////footer///////////////////////*/
+ /*//////////////////////////////main section ////////////*/
+ .main_content
+ {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 40px;
+   margin-bottom: 40px;
+ }
+ 
+ .main_p
+ {
+     font-size: 30px;
+     line-height: 35%;
+ }
+
+ 
+ h3
+ {
+   text-align: center;
+   font-size: 25px;
+ }
+
+ h4
+ {
+   text-align: center;
+   font-size: 30px;
+   color: aliceblue;
+ }
+
+ /*//////////////////////footer///////////////////////*/
+ footer
+ {
+   width: 100%;
+   height: 350px;
+   
+   background-color: #00BF63;
+ }
+ 
+ .deep_footer
+ {
+   text-align: center;
+   color: rgb(0, 0, 0);
+   font-size: 20px;
+   margin-bottom: 10px;
+   
+ }
+ 
+ .footer_element
+ {
+   
+   width: 200px;
+   height: 150px;
+   margin-left: 1%;
+   margin-right: 1%;
+ }
+ 
+ .footer_img
+ {
+   margin-top: 50px;
+   width: 200px;
+   height: 200px;
+ }
+ 
+ .footer_element ul li
+ {
+   font-size: 20px;
+   list-style: none;
+   margin-left: 20px;
+ 
+   user-select: none;/*to disable the text cursor effect*/
+ 
+   transition: transform 0.2s ease-in-out;
+ }
+ 
+ .footer_element ul li:hover
+ {
+   color: #000000;
+   transform: scale(1.2);
+ }
+ 
+ .footer_element h4 
+ {
+   margin-top:100px;
+   color: #000000;
+ }
+
+ footer ul 
+ {
+    color: aliceblue;
+    margin-right: 20%;
+ }
+
+ footer ul li
+ {
+    line-height: 150%;
+    
+ }

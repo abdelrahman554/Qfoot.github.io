@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS/login.css">
+        <link rel="icon" href="img/fav_tap_icon.png" type="image/x-icon">
+        <title>Login</title>
+    </head>
+    <body>
+        <form action="home.html">
+            <h2>Sign In</h2>
+
+            <input 
+            type="email"
+            placeholder="Email">
+            <br><br>
+
+            <input 
+            type="password"
+            placeholder="Password"
+            >
+            <br><br>
+
+            <input 
+            class="crte_acc"
+            type="submit"
+            value="Sign In"
+            onclick="goTo_HomePage()">
+        </form>
+
+        <script>
+            function goTo_HomePage() {
+              window.location.href = "home.html";
+            }
+            </script>
+    </body>
+</html>

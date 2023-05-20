@@ -1,0 +1,63 @@
+
+h2
+{
+    text-align: center;
+    margin-top: 0%;
+
+}
+input
+{
+    border-radius: 20px;
+    border-style: none;
+    padding : 10px ;
+    width: 100%;
+    transition: transform 0.2s ease-in-out;
+}
+input[type="text"]::placeholder {
+    color: gray;
+    text-align: center;
+  }
+  input[type="tel"]::placeholder {
+    color: gray;
+    text-align: center;
+  }
+  input[type="email"]::placeholder {
+    color: gray;
+    text-align: center;
+  }
+  input[type="password"]::placeholder {
+    color: gray;
+    text-align: center;
+  }
+input:hover
+{
+    transform: scale(1.2);
+}
+
+form
+{
+    border-radius: 30px;
+    background-color: #00BF63;
+    width: fit-content;
+    padding: 50px ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.crte_acc
+{
+    padding: 8%;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(3, 99, 51);
+    color: aliceblue;
+    transition: transform 0.2s ease-out;
+}
+
+button:hover
+{
+    transform: scale(1.2);
+}

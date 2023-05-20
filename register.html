@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS/register.css">
+        <link rel="icon" href="img/fav_tap_icon.png" type="image/x-icon">
+        <title>Register</title>
+    </head>
+    <body>
+        <form action="home.html">
+            <h2>Join Us Now!</h2>
+            <input 
+            type="text"
+            placeholder="Name">
+            <br><br>
+
+            <input 
+            type="tel"
+            placeholder="Phone Number">
+            <br><br>
+
+            <input 
+            type="email"
+            placeholder="Email">
+            <br><br>
+
+            <input 
+            type="password"
+            placeholder="Password"
+            >
+            <br><br>
+
+            <input 
+            class="crte_acc"
+            type="submit"
+            value="Create Account"
+            onclick="goTo_HomePage()">
+        </form>
+
+        <script>
+            function goTo_HomePage() {
+              window.location.href = "home.html";
+            }
+            </script>
+    </body>
+</html>

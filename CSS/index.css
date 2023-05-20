@@ -1,0 +1,202 @@
+
+body
+{
+  overflow: auto;
+  scroll-behavior: smooth;
+
+}
+h1
+{
+    text-align: center;
+}
+
+hr
+{
+    width: 80%;
+}
+.main_logo
+{
+    width: 80px;
+    margin-bottom: 30px;
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+button
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: #00BF63;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 1%;
+    padding-right: 1%;
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover
+{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Set the left buttons to align to the start */
+  .button-container button:first-child,
+  .button-container button:nth-child(2) {
+    align-self: flex-start;
+  }
+  
+  /* Set the right buttons to align to the end */
+  .button-container button:last-child,
+  .button-container button:nth-child(5) {
+    align-self: flex-end;
+  }
+  
+  /* Center the center-buttons div */
+  .button-container .center-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  /* Set the center buttons to align to the center */
+  .button-container .center-buttons button {
+    align-self: center;
+  }
+
+  /*//////////////////////////////main section ////////////*/
+.main_content
+{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.main_p
+{
+    font-size: 30px;
+    line-height: 35%;
+}
+/*///////////////////////league section /////////////////*/
+.league_img
+{
+  border-radius: 20px;
+}
+
+
+.product
+{
+  width: 200px;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+h3
+{
+  text-align: center;
+  font-size: 25px;
+}
+/*//////////////////pricing/////////////*/
+.Pricingplan
+{
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  background-color: #00BF63;
+  margin-left: 1%;
+  margin-right: 1%;
+  transition: transform 0.2s ease-in-out;
+}
+.Pricingplan:hover
+{
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  transform: scale(1.07);
+}
+h4
+{
+  text-align: center;
+  font-size: 30px;
+  color: aliceblue;
+}
+ul
+{
+  color: aliceblue;
+  line-height: 200%;
+}
+/* li
+{
+  font-size: 20px;
+} */
+
+/*//////////////////////footer///////////////////////*/
+footer
+{
+  width: 100%;
+  height: 350px;
+  
+  background-color: #00BF63;
+}
+
+.deep_footer
+{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-bottom: 10px;
+  
+}
+
+.footer_element
+{
+  
+  width: 200px;
+  height: 150px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.footer_img
+{
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+}
+
+.footer_element ul li
+{
+  font-size: 20px;
+  list-style: none;
+  margin-left: 20px;
+
+  user-select: none;/*to disable the text cursor effect*/
+
+  transition: transform 0.2s ease-in-out;
+}
+
+.footer_element ul li:hover
+{
+  color: #000000;
+  transform: scale(1.2);
+}
+
+.footer_element h4 
+{
+  margin-top:100px;
+  color: #000000;
+}
